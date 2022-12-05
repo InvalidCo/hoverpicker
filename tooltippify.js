@@ -41,6 +41,8 @@ let ToolTippify = (picker) => class extends picker {
 			backgroundColor: "#ffffff",
 			border: "1px solid black",
 			zIndex: "99999999",
+			overflow: "hidden",
+			"pointer-events": "none"
 		});
 		return elt;
 	}
